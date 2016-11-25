@@ -1,0 +1,36 @@
+#TopFold {
+  margin-top: 50px;
+  height: 900px;
+  // border-bottom: 3px solid black;
+  content: "";
+  position: absolute;
+  width: 100%;
+  // transform: skewY(6deg);
+  background: white;
+  color: black;
+  top: 0;
+  // position: fixed;
+  z-index: 0;
+  left: 0;
+  .content {
+    // position: absolute;
+    // border: 3px solid black;
+    width: 95%;
+    height: 70%;
+    margin: 6% 2.5% 0 2.5%;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    background:url(
+      data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEElEQVQYV2NkwAIYqS+YBgACCgBsCW8lSQAAAABJRU5ErkJggg==
+    ) repeat, white;
+    transform: skewY(4deg);
+    padding-top: 30px;
+    h3 {
+      transform: skewY(-4deg);
+      text-decoration: underline;
+      font-size: 150%;
+      color: black;
+      margin-top: 50px;
+    }
+  }
+}
