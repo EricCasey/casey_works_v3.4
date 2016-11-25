@@ -6,6 +6,7 @@ class TopFold extends Component {
     return (
       <div className="TopFold" id="TopFold">
         <div className="content">
+          <div className="anchor1"></div>
           <h3>Part I</h3>
           <h3>Blah Blah Blah Lorem ipsum dolor sit whatever</h3>
         </div>

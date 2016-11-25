@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './NavBar.scss';
 import Logo from './Logo/Logo.jsx';
 
+let smoothScroll = require('smoothscroll');
+
 class NavBar extends Component {
 
   constructor(props) {
@@ -11,6 +13,12 @@ class NavBar extends Component {
     };
   };
 
+  ScrollTo = (navBtn) => {
+    event.preventDefault();
+    var dest = document.querySelector(`.anchor${navBtn.target.id}`);
+    smoothScroll(dest, 750);
+  }
+
   render() {
     return (
       <div className="NavBar" id="NavBar">
@@ -18,25 +26,39 @@ class NavBar extends Component {
           <div id="leftNav">
             <li>
               <a href="#">
-                <div className="navGlitch" data-text="Works">
+                <div id="2" className="navGlitch" data-text="Works" onClick={this.ScrollTo}>
                   Works
                 </div>
               </a>
             </li>
             <li>
               <a href="#">
-                <div className="navGlitch" data-text="Ideas">
+                <div id="3" className="navGlitch" data-text="Ideas" onClick={this.ScrollTo}>
                   Ideas
                 </div>
               </a>
             </li>
           </div>
           <a href="#">
-            <Logo />
+            <Logo
+              scrollTo={this.ScrollTo}
+            />
           </a>
           <div id="rightNav">
-            <li><a href="#"><div className="navGlitch" data-text="Tools">Tools</div></a></li>
-            <li><a href="#"><div className="navGlitch" data-text="Connect">Connect</div></a></li>
+            <li>
+              <a href="#">
+                <div id="4" className="navGlitch" data-text="Tools" onClick={this.ScrollTo}>
+                  Tools
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div id="5" className="navGlitch" data-text="Connect" onClick={this.ScrollTo}>
+                  Connect
+                </div>
+              </a>
+            </li>
           </div>
         </nav>
       </div>

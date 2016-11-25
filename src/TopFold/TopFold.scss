@@ -25,6 +25,11 @@
     ) repeat, white;
     transform: skewY(4deg);
     padding-top: 30px;
+    .anchor1 {
+      width: 5px;
+      height: 5px;
+      margin: 0 auto;
+    }
     h3 {
       transform: skewY(-4deg);
       text-decoration: underline;

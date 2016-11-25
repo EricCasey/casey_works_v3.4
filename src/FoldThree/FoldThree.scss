@@ -1,12 +1,13 @@
 #FoldThree {
-  border-bottom: 3px solid blue;
-  border-top: 3px solid blue;
+  // border-bottom: 3px solid blue;
+  border-top: 3px solid white;
   height: 1000px;
   width: 100%;
   display: block;
   transform: skewY(6deg);
-  background: LIMEGREEN;
+  background: LIGHTGOLDENRODYELLOW;
   z-index: -5;
+  opacity: 0.8;
   .content {
     position: absolute;
     // border: 3px solid white;
@@ -16,6 +17,11 @@
     color: black;
     font-family: 'Inconsolata', monospace;
     transform: skewY(-6deg);
+    .anchor3 {
+      width: 5px;
+      height: 5px;
+      margin: -160px auto 150px auto;
+    }
     h3 {
       text-decoration: underline;
       font-size: 150%;

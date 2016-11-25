@@ -6,6 +6,7 @@ class FoldThree extends Component {
     return (
       <div className="FoldThree" id="FoldThree">
       <div className="content">
+        <div className="anchor3"></div>
         <h3><b>Section 3</b></h3>
       </div>
       </div>
