@@ -33,8 +33,8 @@ class NavBar extends Component {
             </li>
             <li>
               <a href="#">
-                <div id="3" className="navGlitch" data-text="Ideas" onClick={this.ScrollTo}>
-                  Ideas
+                <div id="3" className="navGlitch" data-text="Resume" onClick={this.ScrollTo}>
+                  Resume
                 </div>
               </a>
             </li>

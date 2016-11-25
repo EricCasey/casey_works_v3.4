@@ -1,0 +1,63 @@
+[
+{
+  "id" : 1,
+  "title": "Shirtvivor",
+  "description" : "16 graphic designers compete for their place on the island.",
+  "demoURL" : "",
+  "gitURL" : "https://github.com/EricCasey/Shirtvivor-1.0",
+  "liveURL" : "",
+  "deskImage" : "https://raw.githubusercontent.com/EricCasey/images4md/master/s_vote.png",
+  "mobImage" : "",
+  "tabletImage" : ""
+},
+{
+  "id" : 2,
+  "title": "Casey.Works v1",
+  "description" : "My old personal website. Using primarity self-taught web development knowledge",
+  "demoURL" : "",
+  "gitURL" : "https://github.com/EricCasey/casey_works_v1",
+  "liveURL" : "http://www.casey.works",
+  "deskImage" : "",
+  "mobImage" : ""
+},
+{
+  "id" : 3,
+  "title": "NYE 'Bridge' App",
+  "description" : "A 'New Years Resolution'-themed web app for shopping.",
+  "demoURL" : "http://www.responsinator.com/?url=www.groundbreaking.rocks%2F2016",
+  "gitURL" : "",
+  "liveURL" : "",
+  "deskImage" : "",
+  "mobImage" : ""
+},
+{
+  "id" : 4,
+  "title": "Chat.af",
+  "description" : "This is a React.js project that simulates modern browser-based chat clients using web-sockets. it also has a profanity filter.",
+  "demoURL" : "",
+  "gitURL" : "https://github.com/EricCasey/chat.af",
+  "liveURL" : "",
+  "deskImage" : "",
+  "mobImage" : "https://raw.githubusercontent.com/EricCasey/images4md/master/chatafCAP.png"
+},
+{
+  "id" : 5,
+  "title": "Mobile Fencing Game",
+  "description" : "",
+  "demoURL" : "http://www.responsinator.com/?url=www.casey.works%2Fworks%2Ffencinggame",
+  "gitURL" : "",
+  "liveURL" : "",
+  "deskImage" : "",
+  "mobImage" : ""
+},
+{
+  "id" : 6,
+  "title": "last Item",
+  "description" : "",
+  "demoURL" : "",
+  "gitURL" : "",
+  "liveURL" : "",
+  "deskImage" : "",
+  "mobImage" : ""
+}
+]
