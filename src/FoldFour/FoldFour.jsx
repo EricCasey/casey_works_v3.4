@@ -7,7 +7,7 @@ class FoldFour extends Component {
       <div className="FoldFour" id="FoldFour">
       <div className="content">
         <div className="anchor4"></div>
-        <h3><b>Tools</b></h3>
+        <h3><b>CLI Tools</b></h3>
       </div>
       </div>
     );

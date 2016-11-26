@@ -5,6 +5,7 @@ import TopFold from './TopFold/TopFold.jsx';
 import FoldTwo from './FoldTwo/FoldTwo.jsx';
 import FoldThree from './FoldThree/FoldThree.jsx';
 import FoldFour from './FoldFour/FoldFour.jsx';
+import FoldFive from './FoldFive/FoldFive.jsx';
 import './App.scss';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <FoldTwo />
         <FoldThree />
         <FoldFour />
+        <FoldFive />
       </div>
     );
   }

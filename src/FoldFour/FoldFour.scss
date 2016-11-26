@@ -1,6 +1,14 @@
 #FoldFour {
+
   // border-bottom: 3px solid blue;
-  border-top: 3px solid white;
+
+  border-top: 3px dashed blue;
+
+  // border-top: 2px dashed #046ca3;
+    // border-bottom: 1px dashed #046ca3;
+  box-shadow-top: inset 0 -1px 0 0 #046ca3, inset 0 1px 0 0 #046ca3, 0 1px 0 0 #046ca3, 0 -1px 0 0 #046ca3;
+
+
   height: 1000px;
   width: 100%;
   display: block;
@@ -20,7 +28,7 @@
     .anchor4 {
       width: 5px;
       height: 5px;
-      margin: -170px auto 150px auto;
+      margin: -160px auto 150px auto;
     }
     h3 {
       text-decoration: underline;

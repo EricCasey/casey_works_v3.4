@@ -24,6 +24,7 @@
     h3 {
       text-decoration: underline;
       margin-bottom: 0;
+      font-size: 1.5vw;
     }
     #more {
       color: blue;
@@ -37,6 +38,27 @@
       margin: 2% auto;
       border-radius: 10px;
       text-align: left;
+      .proLinks {
+        // border: 1px solid blue;
+        max-width: 40%;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        .noLink {
+          text-decoration: line-through;
+        }
+        .noLink:hover {
+          text-decoration: line-through;
+        }
+        a {
+          color: white;
+          text-decoration: underline;
+          margin: 0 auto;
+        }
+        a:hover {
+          font-weight: bolder;
+          text-decoration: none;
+        }
+      }
       h3 {
         max-width: 50%;
         float:left;
@@ -44,6 +66,10 @@
       }
       p {
         margin-left: 15px;
+        font-size: 1vw;
+        // border: 1px solid green;
+        max-height: 50%;
+        text-overflow: ellipsis;
       }
       .preview {
         // border: 2px solid green;
@@ -62,7 +88,7 @@
         border-radius: 10px;
         z-index: 0;
       }
-      .desktopImage {
+      .desktopImage, .noDeskPic {
         width: 159px;
         height: 92px;
         position: absolute;
@@ -73,7 +99,7 @@
                 // clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 85%, 85% 100%, 0 100%);
         z-index: -100;
       }
-      .mobileImage {
+      .mobileImage, .noMobPic {
         width: 33px;
         height: 61px;
         position: absolute;
@@ -81,6 +107,21 @@
         margin-left: 199px;
         margin-top: 85px;
         z-index: -100;
+      }
+      .tabImage, .noTabPic {
+        width: 56px;
+        height: 79px;
+        position: absolute;
+        border-radius: 2px;
+        margin-left: 235px;
+        margin-top: 45px;
+        z-index: -99;
+        border: none;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%, 4% 40%, 0% 40%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%, 4% 40%, 0% 40%);
+      }
+      .noDeskPic, .noMobPic, .noTabPic {
+        text-align: center;
       }
       .devices {
         height: 100%;
@@ -97,6 +138,13 @@
     }
     .right {
       float: right;
+      .preview {
+        float: left;
+      }
+      .proLinks {
+        float: right;
+        margin-right: 30px;
+      }
     }
   }
 

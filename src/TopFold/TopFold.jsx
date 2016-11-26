@@ -8,7 +8,8 @@ class TopFold extends Component {
         <div className="content">
           <div className="anchor1"></div>
           <h3>Part I</h3>
-          <h3>IDK if I'm a designer || developer || marketer || other :(</h3>
+          <h3>scroll down</h3>
+          <h3>obviously</h3>
         </div>
       </div>
     );
