@@ -71,21 +71,21 @@ class FoldTwo extends Component {
             let github, demo, live = '';
 
             if (project.gitURL === "") {
-              github = 'githubLink noLink'
-            }
+              github = 'githubLink noLink prolink'
+            } else { github = 'prolink' }
             if (project.demoURL === "") {
-              demo = 'demoLink noLink'
-            }
+              demo = 'demoLink noLink prolink'
+            } else { demo = 'prolink' }
             if (project.liveURL === "") {
-              live = 'liveLink noLink'
-            }
+              live = 'liveLink noLink prolink'
+            } else { live = 'prolink' }
 
             if (project.deskImage && project.mobImage && project.tabletImage) {
               projectImages = (
                 <div>
-                  <a href={project.gitURL} className={github}>Github </a>
-                  <a href={project.demoURL} className={demo}>Demo </a>
-                  <a href={project.liveURL} className={live}>Live</a>
+                  <a href={project.gitURL} target="_blank" className={github}>Github </a>
+                  <a href={project.demoURL} target="_blank" className={demo}>Demo </a>
+                  <a href={project.liveURL} target="_blank" className={live}>Live</a>
                 </div>
               )
             }

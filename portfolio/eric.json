@@ -3,8 +3,8 @@
   "id" : 1,
   "title": "Shirtvivor",
   "contribution" : "0.5",
-  "description" : "16 graphic designers compete for their place on the island.",
-  "demoURL" : "",
+  "description" : "16 graphic designers compete for their place on this full-stack island made of ReactJS, postgreSQL & an Express API.",
+  "demoURL" : "https://shirtvivor-beta.herokuapp.com/",
   "gitURL" : "https://github.com/EricCasey/Shirtvivor-1.0",
   "liveURL" : "",
   "deskImage" : "https://raw.githubusercontent.com/EricCasey/images4md/master/s_cart.png",
@@ -58,7 +58,7 @@
 {
   "id" : 6,
   "title": "SierraFlame.com",
-  "description" : "A freelance Wordpress site that included SEO & SEM works.",
+  "description" : "A freelance Wordpress site that included front-end, graphic design, SEO & SEM works.",
   "demoURL" : "http://www.sierraflame.com",
   "gitURL" : "",
   "liveURL" : "http://www.sierraflame.com",
@@ -73,9 +73,9 @@
   "demoURL" : "",
   "gitURL" : "",
   "liveURL" : "",
-  "deskImage" : "x",
-  "mobImage" : "x",
-  "tabletImage" : "x"
+  "deskImage" : "http://i.imgur.com/iobhCCF.png",
+  "mobImage" : "http://i.imgur.com/rqw99K8.png",
+  "tabletImage" : "http://i.imgur.com/TsQQrsO.png"
 },
 {
   "id" : 8,
@@ -102,14 +102,14 @@
 },
 {
   "id" : 10,
-  "title": "",
-  "contribution" : "0.8",
-  "description" : "",
-  "demoURL" : "",
+  "title": "[WIP] RespTempl8.1",
+  "contribution" : "1",
+  "description" : "A simple responsive website template",
+  "demoURL" : "http://www.casey.works/v2/index.html",
   "gitURL" : "",
-  "liveURL" : "",
-  "deskImage" : "x",
-  "mobImage" : "x",
-  "tabletImage" : "x"
+  "liveURL" : "http://www.casey.works/v2/index.html",
+  "deskImage" : "http://i.imgur.com/k6fw9S1.png",
+  "mobImage" : "http://i.imgur.com/kefT7gO.png",
+  "tabletImage" : "http://i.imgur.com/kefT7gO.png"
 }
 ]

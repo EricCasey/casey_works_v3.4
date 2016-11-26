@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1600px) {
+  h3 {
+      font-size: 1vw;
+  }
+}
+
+
+@media only screen and (max-width: 1130px) {
+  body {
+    // background: blue;
+  }
+  .prolink {
+    font-size: 12px;
+  }
+  #FoldTwo {
+    height: 1400px;
+  }
+  .project {
+    height: 16%;
+  }
+  .preview {
+    h3 {
+      max-width: 20%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1082px) {
+  .prolink {
+    font-size: 10px;
+  }
+  .project {
+    margin: 0.5% auto;
+    h3 {
+      margin: 0;
+      max-width: none;
+      float:left;
+      color: green;
+      position: fixed;
+      .left {
+        left: 15px;
+      }
+      .right {
+        right: 15px;
+      }
+    }
+  }
+
+}
+
+
+
+// @media only screen and (max-width: 1600px) {
+//     body {
+//         background-color: red;
+//     }
+//     h3 {
+//       color: red;
+//     }
+// }

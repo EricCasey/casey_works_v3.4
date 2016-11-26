@@ -14,6 +14,7 @@ class NavBar extends Component {
   };
 
   ScrollTo = (navBtn) => {
+    // console.log(navBtn)
     event.preventDefault();
     var dest = document.querySelector(`.anchor${navBtn.target.id}`);
     smoothScroll(dest, 750);
@@ -39,11 +40,7 @@ class NavBar extends Component {
               </a>
             </li>
           </div>
-          <a href="#">
-            <Logo
-              scrollTo={this.ScrollTo}
-            />
-          </a>
+            <Logo scrollTo={this.ScrollTo} />
           <div id="rightNav">
             <li>
               <a href="#">

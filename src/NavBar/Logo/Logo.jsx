@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 import './Logo.scss';
 
+let smoothScroll = require('smoothscroll');
+
 class Logo extends Component {
+
+  ScrollTo = (navBtn) => {
+    event.preventDefault();
+    var dest = document.querySelector(".anchor1");
+    smoothScroll(dest, 750);
+  }
+
+
   render() {
     return (
-      <div className="Logo" id="Logo" onClick={this.props.ScrollTo}>
+      <div className="Logo" id="Logo" onClick={this.ScrollTo}>
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
          width="596.000000pt" height="97.000000pt" viewBox="0 0 596.000000 97.000000"
          preserveAspectRatio="xMidYMid meet">

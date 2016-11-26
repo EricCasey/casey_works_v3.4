@@ -7,6 +7,7 @@ import FoldThree from './FoldThree/FoldThree.jsx';
 import FoldFour from './FoldFour/FoldFour.jsx';
 import FoldFive from './FoldFive/FoldFive.jsx';
 import './App.scss';
+import './Responsive.scss';
 
 class App extends Component {
   render() {

@@ -5,16 +5,19 @@
   width: 100%;
   display: block;
   transform: skewY(6deg);
-  background: PALEGREEN;
+  background: black;
   z-index: 0;
   opacity: 1;
+  -webkit-box-shadow: -7px -9px 74px 2px LIGHTGOLDENRODYELLOW;
+  -moz-box-shadow: -7px -9px 74px 2px LIGHTGOLDENRODYELLOW;
+  box-shadow: -7px -9px 74px 2px LIGHTGOLDENRODYELLOW;
   .content {
     position: absolute;
     border: 3px solid black;
     width: 95%;
     height: 86%;
     margin: 6% 2.5% 0 2.5%;
-    color: black;
+    color: white;
     font-family: 'Inconsolata', monospace;
     transform: skewY(-6deg);
     .anchor5 {

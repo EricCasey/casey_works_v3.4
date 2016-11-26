@@ -5,11 +5,12 @@ class TopFold extends Component {
   render() {
     return (
       <div className="TopFold" id="TopFold">
+      <div className="anchor1"></div>
         <div className="content">
-          <div className="anchor1"></div>
-          <h3>Part I</h3>
-          <h3>scroll down</h3>
-          <h3>obviously</h3>
+          <h3>Thanks for visiting.</h3>
+          <h3>-- Click something or scroll, you don't have all day. --</h3>
+          <h3>v-- the good stuff is down there --v</h3>
+
         </div>
       </div>
     );
