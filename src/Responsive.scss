@@ -25,7 +25,7 @@
   }
 }
 
-@media only screen and (max-width: 1082px) {
+@media only screen and (max-width: 1130px) {
   .prolink {
     font-size: 10px;
   }
@@ -33,21 +33,62 @@
     margin: 0.5% auto;
     h3 {
       margin: 0;
-      max-width: none;
-      float:left;
-      color: green;
+      max-width: 20%;
       position: fixed;
-      .left {
-        left: 15px;
-      }
-      .right {
-        right: 15px;
-      }
+      margin-top: 5px;
     }
   }
-
+  .left {
+    left: 0px;
+    margin: 0 0 0 10px;
+    float: left;
+  }
+  .right {
+    // right: 15px;
+    // margin: 0 0;
+    h3 {
+      // position: relative;
+      padding-left: 230px;
+      float: right;
+    }
+  }
 }
 
+@media only screen and (max-width: 1018px) {
+
+  // body {
+  //   background: red;
+  // }
+  #FoldTwo {
+    .proLinks {
+    margin-left: 6px !important;
+    margin-right: 6px !important;
+    margin-bottom: 6px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+
+    body {
+        background-color: blue;
+    }
+    h3 {
+      color: red;
+    }
+    #FoldTwo {
+      height: 1800px !important;
+      .project {
+        height: 10% !important;
+        width: 80% !important;
+        margin: 5px auto !important;
+        float: none !important;
+        .left, .right {
+          float: none !important;
+        }
+      }
+    }
+}
 
 
 // @media only screen and (max-width: 1600px) {
