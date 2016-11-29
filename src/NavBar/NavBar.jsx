@@ -44,8 +44,8 @@ class NavBar extends Component {
           <div id="rightNav">
             <li>
               <a href="#">
-                <div id="4" className="navGlitch" data-text="Tools" onClick={this.ScrollTo}>
-                  Tools
+                <div id="4" className="navGlitch" data-text="Creds" onClick={this.ScrollTo}>
+                  Creds
                 </div>
               </a>
             </li>

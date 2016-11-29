@@ -13,13 +13,43 @@
   box-shadow: -7px -9px 74px 2px LIGHTGOLDENRODYELLOW;
   .content {
     position: absolute;
-    border: 3px solid black;
     width: 95%;
     height: 86%;
     margin: 6% 2.5% 0 2.5%;
     color: white;
     font-family: 'Inconsolata', monospace;
     transform: skewY(-6deg);
+    #connections1 {
+      width: 100%;
+      height: 40%;
+      display: flex;
+      .connection {
+        flex-grow: 1;
+        width: 15%;
+        padding: 3%;
+        img {
+          // height: 80%;
+          width: 100%;
+          max-width: 90%;
+          margin: 2px auto;
+        }
+      }
+    }
+    #connections2 {
+      width: 100%;
+      height: 40%;
+      display: flex;
+      .connection {
+        flex-grow: 1;
+        width: 20%;
+        img {
+          // height: 80%;
+          width: 100%;
+          max-width: 90%;
+          margin: 2px auto;
+        }
+      }
+    }
     .anchor5 {
       width: 5px;
       height: 5px;

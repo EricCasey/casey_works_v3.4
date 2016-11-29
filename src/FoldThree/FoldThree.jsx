@@ -8,8 +8,7 @@ class FoldThree extends Component {
       <div className="FoldThree" id="FoldThree">
       <div className="content">
         <div className="anchor3"></div>
-        <h3><b>Download CV</b></h3>
-        <span className="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+        <h3><b><a href="http://resume.casey.works">Download CV</a></b></h3>
       </div>
     </div>
     );

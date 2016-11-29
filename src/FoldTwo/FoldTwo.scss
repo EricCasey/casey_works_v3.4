@@ -5,7 +5,11 @@
   width: 100%;
   display: block;
   transform: skewY(-6deg);
-  background: black;
+  background:
+  url(
+   data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAE0lEQVQYV2NkwAIYqSxoamo6EwAEGgE+TyqK5wAAAABJRU5ErkJggg==
+  ) repeat,
+  black;
   z-index: -5;
   .content {
     position: absolute;
@@ -118,8 +122,8 @@
         margin-top: 45px;
         z-index: -99;
         border: none;
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%, 4% 40%, 0% 40%);
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%, 4% 40%, 0% 40%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%, 4% 39%, 0% 39%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%, 4% 39%, 0% 39%);
       }
       .noDeskPic, .noMobPic, .noTabPic {
         text-align: center;
