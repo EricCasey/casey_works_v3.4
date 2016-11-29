@@ -11,52 +11,52 @@ class FoldFive extends Component {
 
         <div id="connections1">
           <div className="connection" id="GitHub">
-            <a href="https://github.com/EricCasey">
+            <a href="https://github.com/EricCasey" target="_blank">
               <img src="http://i.imgur.com/WeeNM8F.png" role="presentation"/>
             </a>
           </div>
 
           <div className="connection" id="Linkedin">
-            <a href="https://ca.linkedin.com/in/ericsebastiancasey">
+            <a href="https://ca.linkedin.com/in/ericsebastiancasey" target="_blank">
               <img src="http://i.imgur.com/oDMwYCE.png" role="presentation"/>
             </a>
           </div>
 
           <div className="connection" id="Reddit">
-            <a href="https://www.reddit.com/user/Casey_works/">
-              <img src="http://i.imgur.com/WmvXBu9.png" role="presentation"/>
+            <a href="https://www.reddit.com/user/Casey_works/" target="_blank">
+              <img src="http://i.imgur.com/qvrLHEi.png" role="presentation"/>
             </a>
           </div>
 
           <div className="connection" id="twitch">
-            <a href="https://www.twitch.tv/casey_works" role="presentation">
-              <img src="" role="presentation"/>
+            <a href="https://www.twitch.tv/casey_works" target="_blank">
+              <img src="http://i.imgur.com/F5uBFAE.png" role="presentation"/>
             </a>
           </div>
         </div>
 
         <div id="connections2">
           <div className="connection">
-            <a href="">
-              <img src="" role="presentation"/>
+            <a href="skype:ericcasey509?userinfo" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Skype_logo.svg/2000px-Skype_logo.svg.png" role="presentation" id="skype"/>
+            </a>
+          </div>
+
+          <div className="connection" >
+            <a href="" target="_blank">
+              <img src="http://i.imgur.com/4bcLHMV.png" id="steam" role="presentation"/>
             </a>
           </div>
 
           <div className="connection">
-            <a href="">
-              <img src="" role="presentation"/>
-            </a>
-          </div>
-
-          <div className="connection">
-            <a href="">
+            <a href="" target="_blank">
               <img src="" role="presentation"/>
             </a>
           </div>
 
           <div className="connection" id="email">
-            <a href="">
-              <img src="" role="presentation"/>
+            <a href="mailto:eric@casey.works" target="_blank">
+              <p>or.. you know.. an email.</p>
             </a>
           </div>
         </div>

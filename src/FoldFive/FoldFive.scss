@@ -39,6 +39,12 @@
       width: 100%;
       height: 40%;
       display: flex;
+      #skype {
+        width: 75%;
+      }
+      #steam {
+        width: 80%;
+      }
       .connection {
         flex-grow: 1;
         width: 20%;

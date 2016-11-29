@@ -11,7 +11,7 @@ class FoldTwo extends Component {
       <div className="FoldTwo" id="FoldTwo">
         <div className="content">
           <div className="anchor2"></div>
-          <h3><b>Latest</b></h3>
+          {/* <h3><b>Latest</b></h3> */}
           {portfolio.map((project, index) => {
 
             let cssClasses,
@@ -112,7 +112,6 @@ class FoldTwo extends Component {
             )
           })
         }
-        <h3 id="more">More</h3>
         </div>
       </div>
     );
