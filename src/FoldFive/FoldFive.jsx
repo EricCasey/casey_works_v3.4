@@ -49,14 +49,14 @@ class FoldFive extends Component {
           </div>
 
           <div className="connection">
-            <a href="" target="_blank">
-              <img src="" role="presentation"/>
+            <a href="https://www.codewars.com/users/EricCasey" target="_blank">
+              <img src="http://i.imgur.com/dpxnuUE.png" role="presentation"/>
             </a>
           </div>
 
           <div className="connection" id="email">
             <a href="mailto:eric@casey.works" target="_blank">
-              <p>or.. you know.. an email.</p>
+              <p>email?</p>
             </a>
           </div>
         </div>
