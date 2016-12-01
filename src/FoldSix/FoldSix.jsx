@@ -4,8 +4,8 @@ import './FoldSix.scss';
 class FoldSix extends Component {
   render() {
     return (
-      <div className="FoldSix" id="FoldSix">
-      made with love on twitch
+      <div className="FoldSix" id="FoldSix" onClick={this.props.modeChanger} >
+      <h3>Check out my photo-blog</h3>
       </div>
     );
   }
