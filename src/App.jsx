@@ -6,6 +6,8 @@ import FoldTwo from './FoldTwo/FoldTwo.jsx';
 import FoldThree from './FoldThree/FoldThree.jsx';
 import FoldFour from './FoldFour/FoldFour.jsx';
 import FoldFive from './FoldFive/FoldFive.jsx';
+import FoldSix from './FoldSix/FoldSix.jsx';
+
 import './App.scss';
 import './Responsive.scss';
 
@@ -20,6 +22,7 @@ class App extends Component {
         <FoldThree />
         <FoldFour />
         <FoldFive />
+        <FoldSix />
       </div>
     );
   }
