@@ -43,6 +43,7 @@ class App extends Component {
           <div className="App">
             <Loader />
             <NavBar />
+            <div id="headTri"></div>
             <TopFold />
             <FoldTwo />
             <FoldThree />
