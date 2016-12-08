@@ -92,6 +92,7 @@
     "react": "^15.4.1",
     "react-dev-utils": "^0.3.0",
     "react-dom": "^15.4.1",
+    "react-ga": "^2.1.2",
     "react-lazy-load": "^3.0.10",
     "recursive-readdir": "2.1.0",
     "rimraf": "2.5.4",
