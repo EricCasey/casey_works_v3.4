@@ -9,15 +9,16 @@
 }
 
 #headTri {
-  height: 150px;
+  height: 170px;
   transform: skewY(-6deg);
   width: 100%;
   z-index: 1;
   position: relative;
-  margin-top: -75px;
+  margin-top: -110px;
   background:
   url(
    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAE0lEQVQYV2NkwAIYqSxoamo6EwAEGgE+TyqK5wAAAABJRU5ErkJggg==
   ) repeat,
   black;
+  opacity: 0.95;
 }
