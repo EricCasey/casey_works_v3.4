@@ -9,7 +9,8 @@ class TopFold extends Component {
         <div className="content">
           <h3>Hi there, welcome to my website.</h3>
           <h3>Below you'll find most of my Web Development projects & contact info.</h3>
-          <h3>Thanks for visting</h3>
+          <h3>As of December 2016 this site is a work in progress/sandbox.</h3>
+          <h3>Thanks for visting.</h3>
           <h3>-Eric</h3>
         </div>
       </div>
