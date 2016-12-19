@@ -12,6 +12,8 @@ import BlogApp from './BlogApp/BlogApp.jsx';
 import './App.scss';
 import './Responsive.scss';
 
+import classnames from 'classnames';
+
 class App extends Component {
 
   constructor(props) {
@@ -32,6 +34,7 @@ class App extends Component {
   }
 
   render() {
+    const { className, ...props } = this.props;
     if (this.state.mode === "1") {
       return (
         <div className="App" id="PhotoBlog">
@@ -40,7 +43,7 @@ class App extends Component {
       )
     } else if (this.state.loader === "0") {
         return (
-          <div className="App">
+          <div className={classnames('App', className)} {...props}>
             <Loader />
             <NavBar />
             <div id="headTri"></div>
@@ -54,7 +57,7 @@ class App extends Component {
         )
     } else {
       return (
-        <div className="App">
+        <div className={classnames('App', className)} {...props}>
           <NavBar />
           <TopFold />
           <FoldTwo />
