@@ -19,6 +19,13 @@ var openBrowser = require('react-dev-utils/openBrowser');
 var prompt = require('react-dev-utils/prompt');
 var config = require('../config/webpack.config.dev');
 var paths = require('../config/paths');
+var express = require('express')
+var app = express()
+
+// https setup with letsencrypt.org
+app.get('/.well-known/acme-challenge/DvZBP68ghFWKOhumEsXcp9-lIMbg9ofR1kl5aZaBKbg', function(req, res) {
+  res.send('DvZBP68ghFWKOhumEsXcp9-lIMbg9ofR1kl5aZaBKbg.fEFd7HcqekFNdT_M3-QYnFGRdl6nRWjwIqAPppaIfUs')
+})
 
 // Warn and crash if required files are missing
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
