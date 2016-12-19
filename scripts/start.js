@@ -23,7 +23,7 @@ var express = require('express')
 var app = express()
 
 // https setup with letsencrypt.org
-app.get('/.well-known/acme-challenge/DvZBP68ghFWKOhumEsXcp9-lIMbg9ofR1kl5aZaBKbg', function(req, res) {
+app.get('/.well-known/acme-challenge/:content', function(req, res) {
   res.send('DvZBP68ghFWKOhumEsXcp9-lIMbg9ofR1kl5aZaBKbg.fEFd7HcqekFNdT_M3-QYnFGRdl6nRWjwIqAPppaIfUs')
 })
 
