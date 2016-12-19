@@ -230,11 +230,12 @@
 }
 
 
-// @media only screen and (max-width: 1600px) {
-//     body {
-//         background-color: red;
-//     }
-//     h3 {
-//       color: red;
-//     }
-// }
+@media only screen and (max-width: 550px) {
+    .gone {
+        display: block;
+        animation: none;
+        visibility: visible;
+        opacity: 1;
+        
+    }
+}

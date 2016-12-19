@@ -6,6 +6,7 @@ class Loader extends Component {
   render() {
     return (
       <div className="Loader" id="Loader">
+        <a href="http://resume.casey.works">
       <div id="logoArea">
         {/* <img src={SVGlogo} alt="mylogo" id="SVGlogo"/> */}
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +74,9 @@ class Loader extends Component {
         d="M2620 114 l0 -34 240 0 240 0 0 34 0 33 -240 1 -240 0 0 -34z"/>
         </g>
         </svg>
+
       </div>
+      </a>
       </div>
     );
   }
