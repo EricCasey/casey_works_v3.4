@@ -7,7 +7,7 @@ import App from './App.jsx';
 const Routes = (props) => (
   <Router history={browserHistory}>
     <Route path="/" component={App} />
-    <Route path="/.well-known/acme-challenge/2-0PcJAEN4_dINjb-WMjv_L3EgSyO4AYxobFkZFnbts" component={Test} />
+    <Route path="/testeroo" component={Test} />
   </Router>
 )
 

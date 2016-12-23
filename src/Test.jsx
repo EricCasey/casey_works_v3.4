@@ -10,10 +10,11 @@ export default class Test extends Component {
 
   render() {
     const { className, ...props } = this.props;
+    console.log()
     return (
       <div className={classnames('Test', className)} {...props}>
         <h1>
-          "2-0PcJAEN4_dINjb-WMjv_L3EgSyO4AYxobFkZFnbts.fEFd7HcqekFNdT_M3-QYnFGRdl6nRWjwIqAPppaIfUs"
+          "howdy"
         </h1>
       </div>
     );
